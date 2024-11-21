@@ -223,3 +223,23 @@ footer{
 .font-1p5rem{
     font-size: 1.5rem;
 }
+.van-filter{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+.van-filter > button{
+    border: none;
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #FFEAD0;
+    font-size: 0.8rem;
+}
+.filter-button{
+    background: none !important;
+}
